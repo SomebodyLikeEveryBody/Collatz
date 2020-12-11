@@ -31,6 +31,7 @@ def collatz(p_start, p_level):
                 print("{0}     |".format(number))
 
     print("max value: {0}".format(max(got_nb)))
+    
 if __name__ == "__main__":
     if (len(sys.argv) == 3):
         collatz(sys.argv[1], sys.argv[2])
